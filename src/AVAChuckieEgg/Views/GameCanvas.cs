@@ -9,8 +9,8 @@ using AVAChuckieEgg.Engine;
 namespace AVAChuckieEgg.Views;
 
 /// <summary>
-/// The screen: a fixed 1024×768 picture scaled to fit the window: the well in the middle, the score and the
-/// pieces' tally on the left, the next piece on the right. Runs the engine from a 60 Hz timer.
+/// The screen: a fixed 1024×768 picture scaled to fit the window: the henhouse's platforms and ladders, with the
+/// score, the level, the time, the eggs and the lives along the top. Runs the engine from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {
